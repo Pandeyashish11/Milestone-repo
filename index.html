@@ -1,42 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PwSkills Blog</title>
+    <title>Movie Search</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-        <nav class="navbar">
-            <h2 class="logo">PWSkills Blog</h2>
-           <button id="addButton"><!--<i class="fa-solid fa-plus fa-beat">-->+</i></button> 
-            <script src="script.js"></script>
-        </nav>
-        <div class="container">
-            <article class="card">
-                <img class="blog-img" src="img/book.jpg" alt="image1" style="width:100%">
-                <h2>Title:About Books</h2>
-                <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, libero?</p><br>
-                <a href="/blogs.html" class="btn" role="button">Read More</a></article>
-            <article class="card">
-                <img class="blog-img" src="img/work.png" alt="work image" style="width:100%">
-                <h2>Title:About Team Work</h2><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, libero?</p><br>
-                <a href="/blogs.html" class="btn" role="button">Read More</a></article>
-             <article class="card">
-                <img class="blog-img" src="img/meeting.png" alt="meeting image" style="width:100%">
-                <h2>Title:About Meeting</h2>
-                <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, libero?</p><br>
-                <a href="/blogs.html" class="btn" role="button">Read More</a></article>
-            <article class="card">
-                <img class="blog-img" src="img/image-pw.png" alt="pW imnage" style="width:100%">
-                <h2>Title:Full Stack Course</h2><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, libero?</p><br>
-                <a href="/blogs.html" class="btn" role="button">Read More</a></article>
-        </div>  
-       
+    <div class="main">
+        <div class="row" style="justify-content: center;">
+            <input type="search" id="search" autofocus autocomplete="off" placeholder="Search here..." />
+        </div>
+        <div class="row" id="movie-box">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
